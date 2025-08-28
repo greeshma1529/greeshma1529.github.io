@@ -1,0 +1,95 @@
+
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>html
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./My Portfolio_files/style.css">
+
+
+
+    <header>
+        <h1>Matety Greeshma Sri</h1>
+        <p>Student</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a motivated Computer Science student with strong problem-solving skills and a passion for software development. I enjoy building practical applications, learning new technologies, and working on projects that create real-world impact. My goal is to grow as a software developer while continuously improving my technical and professional skills.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong>Python, C, Java</li>
+            <li><strong>Web Development:</strong> HTML, JavaScript</li>
+            <li><strong>Web Development:</strong> MySQL</li>
+            <li><strong>Tools &amp; Platforms:</strong> GitHub, VS Code</li>
+            <li><strong>Soft Skills: </strong>Teamwork, Communication, Adaptability, Problem-Solving</li>
+    
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Developed an automated attendance monitoring system using face recognition to accurately track student presence and reduce manual effort</li>
+            <li>Designed and developed a mental health support website providing self-care resources, mood tracking, and access to professional help in a user-friendly interface</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: greeshmasrimatety@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/greeshma1529" target="_blank">github.com/yourusername</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/greeshmasri-matety-4ba2a02ba?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsqC34oXQTZuwtI3bOU9ejg%3D%3D" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Matety Greeshma Sri</p>
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
